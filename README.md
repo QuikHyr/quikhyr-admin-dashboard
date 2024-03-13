@@ -1,1 +1,1 @@
-# QuikHyr Admin Dashboard
+# QuikHyr Website & Admin Panel
