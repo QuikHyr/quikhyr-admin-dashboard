@@ -1,1 +1,1 @@
-# quikhyr-admin-dashboard
+# QuikHyr Admin Dashboard
