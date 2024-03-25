@@ -22,35 +22,66 @@ const config = {
         primary: ["var(--font-trap)"],
       },
       colors: {
-        border: "hsl(var(--border))",
-        input: "hsl(var(--input))",
-        ring: "hsl(var(--ring))",
-        background: "hsl(var(--background))",
-        foreground: "hsl(var(--foreground))",
+        border: "var(--border)",
+
+        input: {
+          DEFAULT: "var(--input)",
+          active: "var(--input-active)",
+          disabled: "var(--input-disabled)",
+          foreground: "var(--placeholder)",
+        },
+
+        ring: "var(--ring)",
+
+        placeholder: "var(--placeholder)",
+
+        background: "var(--background)",
+        foreground: "var(--foreground)",
+
         primary: {
-          DEFAULT: "hsl(var(--primary))",
-          foreground: "hsl(var(--primary-foreground))",
+          DEFAULT: "var(--primary)",
+          foreground: "var(--primary-foreground)",
+          shade: "var(--primary-shade)",
         },
-        secondary: {
-          DEFAULT: "hsl(var(--secondary))",
-          foreground: "hsl(var(--secondary-foreground))",
+
+        button: {
+          DEFAULT: "var(--button)",
+          dark: "var(--button-dark)",
         },
+
+        orange: {
+          DEFAULT: "var(--orange)",
+          shade: "var(--orange-shade)",
+        },
+
+        green: {
+          DEFAULT: "var(--green)",
+          shade: "var(--green-shade)",
+        },
+
+        inactive: "var(--inactive)",
+
         destructive: {
-          DEFAULT: "hsl(var(--destructive))",
-          foreground: "hsl(var(--destructive-foreground))",
+          DEFAULT: "var(--destructive)",
+          foreground: "var(--destructive-foreground)",
+          shade: "var(--destructive-shade)",
         },
+
         muted: {
           DEFAULT: "hsl(var(--muted))",
           foreground: "hsl(var(--muted-foreground))",
         },
+
         accent: {
           DEFAULT: "hsl(var(--accent))",
           foreground: "hsl(var(--accent-foreground))",
         },
+
         popover: {
           DEFAULT: "hsl(var(--popover))",
           foreground: "hsl(var(--popover-foreground))",
         },
+
         card: {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
