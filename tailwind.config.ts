@@ -31,7 +31,10 @@ const config = {
           foreground: "var(--placeholder)",
         },
 
-        ring: "var(--ring)",
+        ring: {
+          DEFAULT: "var(--ring)",
+          secondary: "var(--ring-secondary)",
+        },
 
         placeholder: "var(--placeholder)",
 
@@ -42,6 +45,12 @@ const config = {
           DEFAULT: "var(--primary)",
           foreground: "var(--primary-foreground)",
           shade: "var(--primary-shade)",
+        },
+
+        secondary: {
+          DEFAULT: "var(--secondary)",
+          foreground: "var(--secondary-foreground)",
+          shade: "var(--secondary-shade)",
         },
 
         button: {

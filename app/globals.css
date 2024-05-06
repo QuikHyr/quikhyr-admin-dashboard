@@ -21,6 +21,10 @@
     --primary-foreground: var(--foreground);
     --primary-shade: #081b27;
 
+    --secondary: #e4b61a;
+    --secondary-foreground: var(--foreground);
+    --secondary-shade: #121109;
+
     --button: #3399cc;
     --button-dark: #297aa3;
 
@@ -49,7 +53,8 @@
     --input-disabled: #121417;
     --input-foreground: var(--placeholder);
 
-    --ring: ##3399cc;
+    --ring: #3399cc;
+    --ring-secondary: #e4b61a;
 
     --radius: 0.5rem;
   }
@@ -71,6 +76,10 @@
     --primary: #3399cc;
     --primary-foreground: var(--foreground);
     --primary-shade: #081b27;
+
+    --secondary: #e4b61a;
+    --secondary-foreground: var(--foreground);
+    --secondary-shade: #121109;
 
     --button: #3399cc;
     --button-dark: #297aa3;
@@ -99,6 +108,7 @@
     --input-foreground: var(--placeholder);
 
     --ring: ##3399cc;
+    --ring-secondary: #e4b61a;
 
     --radius: 0.5rem;
   }
