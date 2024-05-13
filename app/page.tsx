@@ -17,10 +17,10 @@ export default function Home() {
         <div className="flex flex-wrap justify-center gap-12 md:gap-24 xl:gap-16">
           <div className="max-w-40 text-center">
             <Image
-              src="/qr-code/quikhyr-qr-code.png"
+              src="/qr-code/worker-qr.png"
               width={176}
               height={176}
-              alt="QuikHyr Logo"
+              alt="Worker App QR Code"
               className="mb-6"
             />
 
@@ -32,10 +32,10 @@ export default function Home() {
 
           <div className="max-w-40 text-center">
             <Image
-              src="/qr-code/quikhyr-qr-code.png"
+              src="/qr-code/client-qr.png"
               width={176}
               height={176}
-              alt="QuikHyr Logo"
+              alt="Client App QR Code"
               className="mb-6"
             />
 
