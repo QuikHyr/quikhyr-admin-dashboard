@@ -14,7 +14,7 @@ export default function Home() {
           />
         </div>
 
-        <div className="flex flex-wrap justify-center gap-12 md:gap-24 xl:gap-16">
+        <div className="flex flex-wrap justify-center gap-12 md:gap-24 xl:gap-16 pl-4 pr-4">
           <div className="max-w-40 text-center">
             <Image
               src="/qr-code/worker-qr.png"
