@@ -1,6 +1,5 @@
 import Image from "next/image";
 
-import { Search } from "@/components/ui/search";
 import { UserNav } from "@/components/ui/user-nav";
 import { MainNav } from "@/components/ui/main-nav";
 
