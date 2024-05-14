@@ -29,7 +29,11 @@ export default function RootLayout({
         <link rel="icon" href="/icons/quikhyr-icon.svg" />
       </head>
 
-      <body className={`${trap.variable} antialiased`}>{children}</body>
+      <body
+        className={`${trap.variable} font-primary antialiased`}
+      >
+        {children}
+      </body>
     </html>
   );
 }
